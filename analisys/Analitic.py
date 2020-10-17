@@ -19,7 +19,7 @@ from sklearn.svm import SVC
 class Analitic():
     if __name__ == '__main__':
         # Load dataset
-        url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
+        url = "../dataset/iris.data"
         names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
         dataset = read_csv(url, names=names)
         # shape
